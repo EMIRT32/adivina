@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+
+        <main>
+            
+        <div class="card text-white bg-dark mx-auto mt-5" style="width: 18rem; " >
+            <img src="assets/img/3.jpeg" id="imagen" class="card-img-top foto" alt="...">
+            <div class="card-body">
+              <p class="card-text">Adivina ¿Quién es?</p>
+            </div>
+          </div>
+            
+            <form>
+                
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Caracteristicas</label>
+                        <input type="text" class="form-control " id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required disabled placeholder="¿Tiene Cabella largo?">
+                        
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Responde</label>
+                        <select class="custom-select " id="seleccion" name="seleccion" onchange="mostrarSelect()"
+                            >
+                            <option  selected disabled >Escoge...</option>
+                            <option  value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Caracteristicas</label>
+                        <input type="text" class="form-control " id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required disabled placeholder="¿Es Calvo?">
+                        
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Responde</label>
+                        <select class="custom-select " id="seleccion2" name="seleccion2" onchange="mostrarSelect2()">
+                            <option selected disabled value="">Escoge...</option>
+                            <option  value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                       
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Caracteristicas</label>
+                        <input type="text" class="form-control " id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required disabled placeholder="¿Tiene barba?">
+                        
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Responde</label>
+                        <select class="custom-select " 
+                        id="seleccion3" name="seleccion3" onchange="mostrarSelect3()">
+                            <option selected disabled value="">Escoge...</option>
+                            <option  value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                        
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Caracteristicas</label>
+                        <input type="text" class="form-control " id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required disabled placeholder="¿es el mayor de todos?">
+                        
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Responde</label>
+                        <select class="custom-select " id="seleccion4" name="seleccion4" onchange="mostrarSelect4()">
+                            <option selected disabled value="">Escoge...</option>
+                            <option  value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                        
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">¿Quien crees que es la persona?</label>
+                        <input type="text" class="form-control " id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required disabled placeholder="¿ya sabes quien es?">
+                        
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">Responde</label>
+                        <select class="custom-select " id="seleccion5" name="seleccion5" onchange="mostrarSelect5()">
+                            <option selected disabled value="">Escoge...</option>
+                            <option value="javier">Javier</option>
+                            <option value="jesús">Jesús</option>
+                            <option value="miguel">Miguel</option>
+                            <option value="emirt">Emirt</option>
+                        </select>
+                        
+                    </div>
+                    
+                </div>
+                <a class="btn btn-dark" href="desconocido4.html" role="button">Siguiente presonaje</a>
+            </form>
+            <div class="row">
+                <div class="col-lg-3 card text-white bg-dark mx-auto mt-5" style="width: 18rem; ">
+                    <img src="assets/img/1.jpeg" id="imagen" class="card-img-top fotoPista py-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Adivina ¿Quién es?</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 card text-white bg-dark mx-auto mt-5" style="width: 18rem; ">
+                    <img src="assets/img/2.jpeg" id="imagen" class="card-img-top fotoPista py-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Adivina ¿Quién es?</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 card text-white bg-dark mx-auto mt-5" style="width: 18rem; ">
+                    <img src="assets/img/3.jpeg" id="imagen" class="card-img-top fotoPista py-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Adivina ¿Quién es?</p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+    <script src="assets/JS/logica.js"></script>
+    <script src="assets/JS/jquery.js"></script>
+    <script src="assets/JS/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
