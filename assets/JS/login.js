@@ -56,7 +56,7 @@ formularioLogin.addEventListener('submit', (e)=>{
                usuLogeado.value=""
                pasLogeado.value=""
 
-               window.location="perfil.html";
+               window.location="desconocido.html";
 
              }else {
                 alerta.classList.remove('ocultar') 
