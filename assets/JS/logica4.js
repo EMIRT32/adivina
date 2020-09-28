@@ -126,7 +126,7 @@ function mostrarSelect5(){
 	let texto = respuesta2.options[respuesta2.selectedIndex].text;
 	console.log(texto);
 		
-	if (respuesta == "emirt") {
+	if (respuesta == "jesús") {
 		console.log("Respuesta correcta!!");
 		swal("Correcto!", "Respuesta correcta!!", "success");
 		respuesta2.className = 'custom-select border border-success';
@@ -143,4 +143,3 @@ function mostrarSelect5(){
 	}
 
 }
-
